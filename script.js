@@ -1,20 +1,3 @@
-// let computerNumber = 0;
-// let myGuess = 0;
-// const chooseTheNumber = function () {
-//   computerNumber = Math.trunc(Math.random() * 19) + 1;
-//   console.log(computerNumber);
-// };
-// chooseTheNumber();
-// const guessTheNumber = function () {
-//   myGuess = document.getElementById("guessField").value;
-//   if (myGuess == computerNumber) {
-//     console.log("win");
-//   } else if (myGuess > computerNumber) {
-//     console.log("Your Guess is Higher than my number");
-//   } else if (myGuess < computerNumber) {
-//     console.log("Your Guess is Lower than my number");
-//   }
-// };
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 10;
 document.querySelector(".check").addEventListener("click", function () {
