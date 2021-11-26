@@ -1,5 +1,7 @@
+//Computer Choose The Random Number
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 10;
+//EventListener For "Check" Button 
 document.querySelector(".check").addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess").value);
   document.querySelector(".number").textContent = guess;
@@ -25,6 +27,7 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector("body").style.backgroundColor = "rgb(216, 3, 3)";
   }
 });
+//EventListener For "Again" Button
 document.querySelector(".again").addEventListener("click", function () {
   secretNumber = Math.trunc(Math.random() * 20) + 1;
   score = 10;
