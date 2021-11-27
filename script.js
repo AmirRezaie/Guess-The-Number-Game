@@ -1,3 +1,5 @@
+//active strict mode
+'use strict';
 //Computer Choose The Random Number
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 10;
